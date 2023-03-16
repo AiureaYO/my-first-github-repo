@@ -1,7 +1,7 @@
 #!/bin/bash
-x=1
-while [ $x -le 5 ]
+S=1
+while [ $S -le 5 ]
 do
-  echo "Welcome $x times"
-  x=$(( $x + 1 ))
+  echo "Welcome $S times"
+  S=$(( $S + 1 ))
 done 
